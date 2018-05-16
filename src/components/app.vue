@@ -33,7 +33,7 @@
           :parent-data="data"
           :data="item"
           :deep="deep"
-          :path="path + (Array.isArray(data) ? `[${index}]` : `.${index}`)"
+          :path="path + (Array.isArray(data) ? `[${index}]` : `///${index}`)"
           :path-checked="pathChecked"
           :path-selectable="pathSelectable"
           :selectable-type="selectableType"
